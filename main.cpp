@@ -28,7 +28,7 @@ int main()
         A[i] = i;
     copy(A,temp,0,N,0);
 
-    for(int i = 0; i < 20;i++){//repeate process 20 times to find avg time taken
+    for(int i = 0; i < 20;i++){//repeats process 20 times to find avg time taken
         copy(temp,A,0,N,0);//resets data to be sorted
         start = std::clock();//reset time at each loop
         quick_sort_1(A,0,N);
